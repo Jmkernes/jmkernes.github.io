@@ -1,24 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Welcome to my personal page!
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+    <p>Los Angeles, CA</p>
+    <p>Email: Jmkernes@ucla.edu </p>
+    <p>Github: <a href="https://github.com/jmkernes">github.com/jmkernes</a></p>
+    <p>Medium: <a href="https://medium.com/@jmkernes">medium.com/@jmkernes</a><p>
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Originally from Chicago, IL, I traded in polar vortices for beaches and sun on the West Coast. I have a PhD in physics from UCLA (go bruins!) and undergraduate degrees in physics, math, and integrated science from Northwestern University. My <a href="https://escholarship.org/uc/item/5cb2s328">doctoral dissertation</a> was in theoretical soft matter, on the role of curvature in lower dimensional elastic systems.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently interested in the field of Artificial Intelligence, and enjoy learning and writing about machine learning. You can check out some of my blog posts on my <a href="https://medium.com/@jmkernes">medium page<a>. Within AI, I specialize in the field of **Natural Language Processing**, and am currently interested in Neural Machine Translation. In the TensorFlow vs. PyTorch debate, I'm strongly team TensorFlow; but no hard feelings!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my free time, I enjoy cooking, basketball, and hip hop. In a former life I used to produce hip-hop beats, but am in a constant struggle to find the time to keep doing so. I'm also a big fan of languages, and can speak Spanish moderately well, as well as Chinese at an elementary level.

@@ -1,6 +1,6 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Kernes":
+  - firstname: ["Kernes", "J.", "Jonathan Kernes"]
+    url:
 
 "Podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
@@ -10,7 +10,7 @@
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
+"Bach":
   - firstname: ["Johann Sebastian", "J. S."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
