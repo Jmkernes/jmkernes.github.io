@@ -4,15 +4,13 @@ title: Guitar
 description: Beats that rely heavily on guitar riffs and licks.
 img: /assets/img/Music/thumbnails/luana-azevedo-EUx5biJPWUI-unsplash.jpg
 importance: 1
-github: github.com/jmkernes/PAR-Transformer-XL
+caption: "source: Luana Azevedo, unsplash.com"
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Music/thumbnails/adi-goldstein-vH2vj_3_IeU-unsplash.jpg' | relative_url }}" alt="" title="example image"/>
+    <div class="caption">source: Adi Goldstein, unsplash.com</div>
     </div>
-</div>
-<div class="caption">
-Source: adi goldstein, on unsplash.com.
 </div>
 
 # Catalog

@@ -19,7 +19,6 @@ nav: true
       <div class="card hoverable">
         {% if project.img %}
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
-        <div class="caption">source: luana</div>
         {% endif %}
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>

@@ -4,14 +4,13 @@ title: General hip-hop
 description: Hip-hop beats produced using mostly production software built-ins. In contrast to beats with a focus on live instruments.
 img: /assets/img/Music/thumbnails/blaz-erzetic-mY5XXML-I_Y-unsplash.jpg
 importance: 3
+caption: "source: Blaz Erzetic, unsplash.com"
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Music/thumbnails/blaz-erzetic-mY5XXML-I_Y-unsplash.jpg' | relative_url }}" alt="" title="example image"/>
+        <div class="caption">source: Blaz Erzetic, unsplash.com</div>
     </div>
-</div>
-<div class="caption">
-Source: adi goldstein, on unsplash.com.
 </div>
 
 # Catalog

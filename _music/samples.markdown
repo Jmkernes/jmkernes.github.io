@@ -4,14 +4,13 @@ title: Sample-based
 description: The OG way to make beats. This is a collection of beats made from samples, with an emphasis on soul.
 img: /assets/img/Music/thumbnails/konstantinos-hasandras-aivbDhWuFyw-unsplash.jpg
 importance: 2
+caption: "source: Konstantinos Hasandras, unsplash.com"
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Music/thumbnails/konstantinos-hasandras-aivbDhWuFyw-unsplash.jpg' | relative_url }}" alt="" title="example image"/>
+        <div class="caption">source: Konstantinos Hasandras, unsplash.com</div>
     </div>
-</div>
-<div class="caption">
-Source: adi goldstein, on unsplash.com.
 </div>
 
 # Catalog

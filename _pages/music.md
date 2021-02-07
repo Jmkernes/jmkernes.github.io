@@ -33,6 +33,7 @@ This second track is based on a sample of *A change is gonna come* by Sam Cooke.
       <div class="card hoverable">
         {% if project.img %}
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        <div class="caption">{{ project.caption }}</div>
         {% endif %}
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>
