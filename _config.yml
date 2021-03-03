@@ -67,7 +67,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Expectation-Magnetization  # your blog must have a name for it to show up in the nav bar
-blog_description: a nonsensical mashup of two different EM acronyms-**expectation-maximization plus electricity-and-*magnetism.
+blog_description: a nonsensical mashup of two different EM acronyms-expectation-maximization and electricity-and-magnetism.
 permalink: /blog/:year/:title/
 
 # Pagination
