@@ -2,11 +2,39 @@
 layout: page
 permalink: /CV/
 title: CV
-description: my curriculum vitae.
+description:
 nav: true
 ---
-# TO BE IMPLEMENTED
-<!-- # **Kate Miller**
+*Complete versions of my CV and/or Résumé are available upon request. Please email me at jmkernes@ucla.edu.
+
+## Education
+
+### University of California, Los Angeles
+
+**Doctorate in Physics**, (Ph.D.): . . . . . . . . . . . . . . . . . . . . . . . . . . . . _2014-2020_
+
+**Master of Science in Physics**, (Ms.C.): . . . . . . . . . . . . . . . . . . . ._2014-2015_
+
+**Bachelor of Science in Physics**, (B.S.),
+
+**Bachelor of Science in Mathematics**, (B.S.),
+
+**Bachelor of Science in Integrated Science**, (B.S.),
+ . . . . . . . . . . _2010-2014_
+
+### Skills
+__Programming languages__: Python, C++, Mathematica
+
+__Machine Learning__: Natural Language Processing, Neural Machine Translation, Deep Learning, Transformers, Recurrent Neural Networks, CNNs, Generative Models, Bayesian Inference, Classical Machine Learning.
+
+
+<!-- ### Skills
+
+### The State University of NY
+->_2010 - 2014_
+**Bachelor of Engineering**,  _Oswego, New York_
+
+# **Kate Miller**
 An engineering manager building and leading engineering teams at Apple Inc
 
 ## Work Experience
@@ -52,14 +80,4 @@ An engineering manager building and leading engineering teams at Apple Inc
 
 Technical: `Python` `Go` `Microservices Architecture`
 
-Management: `Kanban Methodology` `Scrum`
-
-## Education
-
-### Carnegie Mellon University
-->_2014-2016_
-**Masters of Computer Science**, _Pittsburgh, Pennsylvania_
-
-### The State University of NY
-->_2010 - 2014_
-**Bachelor of Engineering**,  _Oswego, New York_ -->
+Management: `Kanban Methodology` `Scrum` -->
