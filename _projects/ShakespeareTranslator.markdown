@@ -4,7 +4,7 @@ title: Shakespeare Translator
 description: An attention based translator to rewrite modern day english into Shakespearian english.
 img: /assets/img/ShakespeareTranslator/where_art_thou.png
 importance: 2
-github: https://github.com/jmkernes/ShakespeareTranslator
+github: https://github.com/Jmkernes/Shakespeare-Translator 
 ---
 
 For the full project, please follow the link to my github repository:
