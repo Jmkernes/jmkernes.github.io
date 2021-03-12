@@ -4,7 +4,7 @@ title: PAR Transformer XL
 description: An implementation of the Pay-Attention-as-Required Transformer.
 img: /assets/img/ParTransformer/stoch_blks.png
 importance: 1
-github: github.com/jmkernes/PAR-Transformer-XL
+github: https://github.com/jmkernes/PAR-Transformer-XL
 stars: 2
 ---
 For the full project, please follow the link to my github repository:
