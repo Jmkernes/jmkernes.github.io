@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Jonathan M. Kernes | blank</title>
+<title>Jonathan M. Kernes | Shakespeare Translator</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/ShakespeareTranslator/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -94,7 +94,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               Blog
               
@@ -178,24 +178,69 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Expectation-Magnetization</h1>
-    <h2>a nonsensical mashup of two different EM acronyms-expectation-maximization and electricity-and-magnetism.</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Shakespeare Translator</h1>
+    <p class="post-description">An attention based translator to rewrite modern day english into Shakespearian english.</p>
+  </header>
 
+  <article>
+    <p>For the full project, please follow the link to my github repository:
+<a href="https://github.com/Jmkernes/Shakespeare-Translator">https://github.com/Jmkernes/Shakespeare-Translator</a></p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/adjoint-sensitivity/">Adjoint sensitivities equations</a></h3>
-        <p class="post-meta">February 10, 2020</p>
-        <p>A derivation of the adjoing sensitivities equations for the neural ODE paper</p>
-      </li>
-    
-  </ul>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/ShakespeareTranslator/stock_shakes_photo.jpg" alt="" title="example image" />
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/ShakespeareTranslator/stock2.jpg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    Sources: left) matt riches, unsplash.com. right) tabitha turner, unsplash.com.
+</div>
 
-  
+<p>As the title suggests, the goal of this project is to translate a sentence from english to shakespearian english. More specifically, we provide two types of inference:</p>
 
+<ol>
+  <li>
+    <p><strong>Faithful translation</strong>. This utilizes beam search to try to construct the most probable shakespearian translation given the input.</p>
+  </li>
+  <li>
+    <p><strong>Generative translation</strong>. This uses a temperature parameter to sample possible translations. It may not be as accurate, but certainly more fun to give the model some freedom. We also implement a basic Minimum Bayes Risk inference on these translations to try to pick the “best” translation.</p>
+  </li>
+</ol>
+
+<h2 id="non-trivial-aspects">Non-trivial aspects</h2>
+
+<ul>
+  <li>The translation dataset was created from scratch, by <strong>web scraping</strong> from NoFearShakespeare’s translations.</li>
+  <li>The data was totally raw, so it had to be cleaned and preprocessed.</li>
+  <li>An <strong>encoder-decoder transformer</strong></li>
+  <li>A <strong>Masked Language Model pretraining</strong> cloze task, to learn bidirectional transformer encoder embeddings, similar to BERT but without next-sentence prediction.</li>
+  <li>A homeade <strong>Beam search</strong> implementation, for both graph and eager mode.</li>
+  <li>An alternative <strong>Minimum Bayes Risk</strong> translator, built on python’s <code class="language-plaintext highlighter-rouge">difflib</code> library for basic sequence matching</li>
+</ul>
+
+<p>One of the fun things you can do is use this as an insult generator. Below is a screenshot of what it looks like in the terminal.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/ShakespeareTranslator/prog_screenshot.png" alt="" title="example image" />
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/ShakespeareTranslator/insult.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+  Insult someone, with sophistication.
+</div>
+
+<p>The Minimum Bayes Risk generator will generate 16 random translations, and order them based on similarity. The similarity score is computed as follows: Each sequence is compared to every other sequence using python’s difflib module method SequenceMatcher, resulting in a similarity score. A given entry is scored based on how similar it is to every other entry. We then rank sequences in order from most similar (meaning the sequence resembles the “mean” sequence) to least similar. An alternative similarity test using a count vectorizer is at the end of the inference notebook. It doesn’t work as well; it loses temporal alignment and favors repetitive nonsensical translations.</p>
+
+<h2 id="using-the-data">Using the data</h2>
+<p>Please use it! I ran out of GPU power, so I couldn’t fine tune more. I strongly recommend using the data however to try to do better! Any comments, questions, concerns please email me or open a pull request. Thanks!</p>
+
+  </article>
 
 </div>
 
